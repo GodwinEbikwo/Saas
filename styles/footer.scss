@@ -1,0 +1,57 @@
+.Footer {
+  background-color: #161616;
+  padding: 100px 3%;
+  .m-f-grid {
+    display: grid;
+    @include for-size(tablet-portrait-up) {
+      grid-auto-columns: 1fr;
+      grid-row-gap: 1rem;
+      grid-column-gap: 1rem;
+    }
+  }
+
+  .footer-grid {
+    @include for-size(tablet-portrait-up) {
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+    }
+
+    .f-column {
+      display: flex;
+      padding-right: 2.25rem;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+
+      .f-cta {
+        margin-right: 1.2rem;
+        margin-bottom: 2rem;
+        color: $white;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        font-weight: 400;
+      }
+
+      .f-title {
+        margin-bottom: 1.1rem;
+        color: $orange;
+        font-size: 1.25rem;
+      }
+
+      .f-link {
+        display: block;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: opacity 200ms ease;
+        color: $white;
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        &:hover {
+          opacity: 0.65;
+        }
+      }
+    }
+  }
+}
