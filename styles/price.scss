@@ -8,7 +8,7 @@
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
-      line-height: 0.9;
+      line-height: 1;
 
       @include for-size(phone-only) {
         font-size: 2rem;

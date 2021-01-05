@@ -5,7 +5,7 @@ export default function Price() {
     <section className="Price" data-scroll-section>
       <div className="container container--pall">
         <div className="inner">
-          <h1>Get the right payment plan for future product.</h1>
+          <h1>Payment plan to suit all pocket sizes.</h1>
         </div>
         <div className="price-grid">
           <Pcard
