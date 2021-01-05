@@ -15,11 +15,9 @@ export default function Home() {
       <Layout>
         <Head>
           <title>{siteTitle}</title>
-
-          <link rel="manifest" href="/site.webmanifest" />
           <meta
             name="description"
-            content="The most trustworthy travel agency"
+            content="Targeted marketing just got a whole lot better and GDPR friendly "
           />
         </Head>
         <Hero />
